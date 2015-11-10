@@ -7,3 +7,8 @@ primes: primes_up_to.o prime_factors_for.o array_access.o
 primes_up_to: array_access.o
 
 prime_factors_for: array_access.o
+
+clean:
+	rm -f *.o
+	rm -f devpkg
+	rm -rf *.dSYM
